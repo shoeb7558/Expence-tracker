@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Expense Tracker</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <div id="header">
+    <h1 class="text-center mb-4">Expense Tracker</h1>
+    </div>
+    <div id="main">
+    <form id="expenseForm" class="form-inline mb-3">
+      <input type="text" class="form-control_mr-2" id="amount" placeholder="Amount" required>
+      <input type="text" class="form-control_mr-2" id="description" placeholder="Description" required>
+      <select class="form-control_mr-2" id="category" required>
+        <option value="movie">Movie</option>
+        <option value="petrol">Petrol</option>
+        <option value="grocery">Grocery</option>
+      </select>
+      <button id="subbut" type="button" class="btn btn-dark" onclick="addExpense()">Add Expense</button>
+    </form>
+
+    <h2 class="mb-3">Expense List</h2>
+    <div id="ulid">
+    <ul id="expenseList" class="list-group">
+      <!-- Expense items will be added here dynamically -->
+    </ul>
+</div>
+  </div>
+</div> 
+  <script src="script.js"></script>
+</body>
+
+</html>

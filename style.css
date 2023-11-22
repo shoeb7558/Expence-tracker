@@ -1,0 +1,121 @@
+.container {
+    margin-top: 10px;
+  }
+
+  .expense-item {
+    list-style: none;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .expense-item button {
+    margin-left: 5px;
+  }
+
+  #header{
+    margin-top: -25px;
+    margin-left: -10px;
+    height: 80px;
+    padding-left: 20px;
+    padding-top: 10px;
+    background-color: #ABEBC6;
+  }
+
+  #main{
+  padding-top: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  border: solid 1px;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-left: 80px;
+  margin-right: 10px;
+  background-color: aliceblue;
+  height: 450px;
+  width: 800px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  border-color: aliceblue;
+}
+
+.form-control_mr-2{
+    border-color: #fff;
+    border-radius: 5px;
+    padding-left: 5px;
+    margin: 5px;
+    height: 20px;
+    width: 200px;
+
+}
+
+#subbut{
+    width: 100px;
+    
+    border: solid 0.5px;
+    border-radius: 10px;
+    height: 35px;
+    background-color: #ABEBC6;
+    border-color: #FDF2E9;
+
+
+}
+#ulid{
+    position: fixed;
+    margin-top: 0px;
+    text-align: center;
+    overflow-y: auto;
+    background-color: #D6EAF8;
+    width: 800px;
+    height: 300px;
+    
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    scrollbar-width: thin;
+    scrollbar-color: #FDF2E9 #fff;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 0px;
+    padding-right: 15px;
+}
+#ulid::-webkit-scrollbar {
+    width: 12px; /* Adjust the width as needed */
+}
+
+#ulid::-webkit-scrollbar-thumb {
+    background-color: #ccc; /* Color of the thumb */
+    border-radius: 10px;
+}
+
+#ulid::-webkit-scrollbar-track {
+    background-color: #fff; /* Color of the track */
+    border-radius: 10px;
+}
+
+
+li{
+   
+    background-color: #ABEBC6 ;
+    padding: 5px;
+    margin: 5px 0;
+    border-radius: 10px;
+    margin-left: 0px;
+    border-color: #ABEBC6;
+    
+}
+
+li button {
+    background-color: #D98880 ;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    
+}
